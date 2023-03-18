@@ -1,0 +1,46 @@
+.box{ 
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+
+.flex-header{
+    width: 200px;
+}
+
+.box-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-h1{
+    display: inline-block;
+    color: rgb(165, 20, 125);
+    font-size: 55px;
+    padding: 50px;
+    order:2;
+}
+
+.title-h2{
+    color: rgb(165, 20, 125);
+    order: 3;
+    font-size: 28px;
+}
+
+.logotipo{
+    display: inline block;
+    order: 1;
+    height: 180px;
+    width: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(236, 236, 236)
+}
+
+
